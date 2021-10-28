@@ -1,5 +1,7 @@
 # Stack
-- 먼저 들어간 데이터가 나중에 나오는 자료구조
+- 먼저 들어간 데이터가 나중에 나오는 후입선출 자료구조(LIFO, Last In First Out, FIFO,First In Last Out)
+- 스택은 데이터를 일시적으로 저장하기 위해 사용하는 자료구조
+- 기본적으로 Push과 Pop 이라는 함수 인터페이스로 동작합니다.
 
 ## Stack code
 ```c
