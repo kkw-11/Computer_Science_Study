@@ -42,6 +42,7 @@ ex) 20191014 [Algorithm] Sort Add/Update/Delete
 
 #### Reference
 - [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
+- [Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
 
 
 
