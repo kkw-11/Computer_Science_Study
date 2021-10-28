@@ -31,6 +31,65 @@
 
 [##_Image|kage@c9mJW5/btq2tlPF1ez/tC5oAgsgLqUoUE9NIOqwZ0/img.png|alignLeft|data-origin-width="685" data-origin-height="167" data-ke-mobilestyle="widthContent"|||_##]
 
+
+
+## C++ vector 활용 인접리스트 형태로 그래프 표현
+
+![image](https://user-images.githubusercontent.com/76929823/139233447-a03705e7-9c8e-405f-ae8b-dce5ac5174a8.png)
+-   위 그래프를 인접리스트 형태로 표현
+-   먼저 C++의 대괄호(\[\]) 연산자를 이용해 vector 5개를 선언
+-   v1,v2가 연결되어 있다고 하면 아래와 같이 작성 가능
+    -   map\[v1\].push\_back(v2);// map\[v1\] 벡터에 v2데이터 추가
+
+
+```c++
+#include<stdio.h>
+#include<vector>
+using namespace std;
+int main() {
+
+    vector<int> map[5];
+
+    //v[0]은 사용 안함
+    //vector map[1]은 노드 1에 연결된 노드정보 인접리스트형태로 저장
+    map[1].push_back(2);//map[1][0]에 2라는 데이터가 저장
+    map[1].push_back(3);//map[1][1]에 3이라는 데이터가 저장
+    map[1].push_back(4);//map[1][2]에 4라는 데이터가 저장
+
+    //vector map[2]은 노드2에 연결된 노드 정보를 인접리스트형태로 저장
+    map[2].push_back(1);
+    map[2].push_back(4);
+
+    //vector map[3]은 노드3에 연결된 노드 정보를 인접리스트형태로 저장
+    map[3].push_back(1);
+    map[3].push_back(4);
+
+    //vector map[4]은 노드4에 연결된 노드 정보를 인접리스트형태로 저장
+    map[4].push_back(1);
+    map[4].push_back(2);
+    map[4].push_back(3);
+
+    //각 노드에 연결된 길이만큼 for문으로 그래프 정보 출력
+    for (int i = 1; i <= 4; ++i) {
+        for (int j = 0; j < map[i].size(); ++j) {
+            printf("(%d,%d)\n",i, map[i][j]);
+        }
+    }
+
+    return 0;
+}
+```
+
+
+## 연결리스트 표현
+
+[##_Image|kage@1OpDd/btq6lnDuZt0/jW7p8GmpbIyqZsAtfvmXXk/img.png|alignCenter|data-origin-width="463" data-origin-height="306" data-ke-mobilestyle="widthOrigin"|||_##]
+
+## 실제 저장 형태
+
+[##_Image|kage@D8Dcz/btq6k9eqWGh/WUolKLZUY3wy4gFBzNlpvK/img.png|alignCenter|data-origin-width="419" data-origin-height="303" data-ke-mobilestyle="widthOrigin"|||_##]
+
+
 \-------------------------------------------------------------------------------------------------------------
 
 출처 : 뇌를 자극하는 알고리즘(한빛미디어, 박상현 저)
