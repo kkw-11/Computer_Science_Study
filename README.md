@@ -10,7 +10,7 @@ ex) 20191014 [Algorithm] Sort Add/Update/Delete
 ```
 
 ## Contents
-- [Algorithm](https://github.com/kkw-11/Computer_Science_Study/tree/main/Data%20Structure%20%26%20Algorithm)
+- Algorithm
   - [Dijkstra](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Djkstra.md)
 - Data Structure
 - Programming Language
