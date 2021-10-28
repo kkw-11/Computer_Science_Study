@@ -83,11 +83,13 @@ int main() {
 
 ## 연결리스트 표현
 
-[##_Image|kage@1OpDd/btq6lnDuZt0/jW7p8GmpbIyqZsAtfvmXXk/img.png|alignCenter|data-origin-width="463" data-origin-height="306" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://user-images.githubusercontent.com/76929823/139233777-c6c4ba2b-1078-4e01-94d0-d733b302eecb.png
 
 ## 실제 저장 형태
 
-[##_Image|kage@D8Dcz/btq6k9eqWGh/WUolKLZUY3wy4gFBzNlpvK/img.png|alignCenter|data-origin-width="419" data-origin-height="303" data-ke-mobilestyle="widthOrigin"|||_##]
+![image](https://user-images.githubusercontent.com/76929823/139233813-14f802a8-b789-4dbb-9fd5-ea689851e57a.png)
+
+
 
 
 \-------------------------------------------------------------------------------------------------------------
