@@ -11,6 +11,7 @@ ex) 20191014 [Algorithm] Sort Add/Update/Delete
 
 ## Contents
 - Algorithm
+  - [Depth-First-Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Depth-First_Search.md)
   - [Breadth-First-Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Breadth-First-Search.md)
   - [Dijkstra](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Djkstra.md)
 - Data Structure
