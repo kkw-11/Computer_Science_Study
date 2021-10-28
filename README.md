@@ -13,6 +13,8 @@ ex) 20191014 [Algorithm] Sort Add/Update/Delete
 - Algorithm
   - [Dijkstra](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Djkstra.md)
 - Data Structure
+   - [자료구조란 무엇인가?](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/What_Is_Data_Structure.md)
+   - [Stack](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/Stack.md)
 - Programming Language
 - Operating System
 - Computer Architecture
