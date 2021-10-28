@@ -22,6 +22,7 @@ ex) 20191014 [Algorithm] Sort Add/Update/Delete
 - Operating System
 - Computer Architecture
 - System Programming
+  - [Memory Structure](https://github.com/kkw-11/Computer_Science_Study/blob/master/System_Programming/Memory_Structure.md)
 - Linux
 - Database
 - Network
