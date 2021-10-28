@@ -20,7 +20,8 @@
 
 다음 그림은 운영체제가 제공하는 메모리 공간을 표현하고 있습니다.
 
-[##_Image|kage@q56zl/btqSNldorYo/Z779A4x1DppBOo6KAN89eK/img.png|alignCenter|data-origin-width="314" data-origin-height="512" data-ke-mobilestyle="widthContent"|||_##]
+![image](https://user-images.githubusercontent.com/76929823/139230714-3f12eeae-9ff3-4e5e-bf21-c079bcee0411.png)
+
 
 ---
 
