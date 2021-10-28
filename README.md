@@ -26,7 +26,7 @@ ex) 20191014 [Algorithm] Sort Add/Update/Delete
     - [C++ Danamic Memory Allocation](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_dynamic_memory_allocation.md)
     - [C++ STL](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_STL.md)
   - Java
-    - [Java_Array]()
+    - [Java_Array](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/Java_Array.md)
 - Operating System
 - Computer Architecture
 - System Programming
