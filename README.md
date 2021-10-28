@@ -20,9 +20,11 @@ ex) 20191014 [Algorithm] Sort Add/Update/Delete
   - [Queue](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/Queue.md)
   - [Graph](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/Graph.md)
 - Programming Language
-  - [C Struct](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C_Struct.md)
-  - [C++ Danamic Memory Allocation](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_dynamic_memory_allocation.md)
-  - [C++ STL](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_STL.md)
+  - C
+    - [Struct](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C_Struct.md)
+  - C++
+    - [C++ Danamic Memory Allocation](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_dynamic_memory_allocation.md)
+    - [C++ STL](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_STL.md)
 - Operating System
 - Computer Architecture
 - System Programming
