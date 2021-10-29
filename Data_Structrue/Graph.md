@@ -29,7 +29,6 @@
 -   각 정점에 대해 자신과 인접해 있는 모든 정점의 목록을 리스트로 관리하도록 하는 것입니다.
 -   먼저 모든 정점을 죽 늘어놓고, 각 정점의 인접 정접을 옆에 나열합니다.
 
-[##_Image|kage@c9mJW5/btq2tlPF1ez/tC5oAgsgLqUoUE9NIOqwZ0/img.png|alignLeft|data-origin-width="685" data-origin-height="167" data-ke-mobilestyle="widthContent"|||_##]
 
 
 
