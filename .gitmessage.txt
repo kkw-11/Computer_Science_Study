@@ -1,0 +1,25 @@
+# Commit convention rule : 날짜-[주제]-내용-상태
+
+# ex) 20211029 [Algorithm] Sort Add/Update/Delete
+# 작성한 날짜 아랫줄에 작성
+
+################
+# [폴더명] 파일명 Add/Update/Delete 를 아랫줄에 작성
+
+################
+# 꼬릿말(footer)을 아랫줄에 작성 (작성자)
+
+################
+# 폴더명
+# [Algorithm]
+# [Data_Structure] 
+# [Operating_System]
+# [Computer Architecture]
+# [Programming_Language]
+# [System_Programming]
+# [Linux]
+# [Database]
+# [Network]
+# [Web]
+################
+
