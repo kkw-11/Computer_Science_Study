@@ -40,6 +40,7 @@ ex) 20211016 [Algorithm] Sort Add/Update/Delete
   - [Memory Structure](https://github.com/kkw-11/Computer_Science_Study/blob/master/System_Programming/Memory_Structure.md)
 - Linux
 - Database
+  -  [Database Concept](https://github.com/kkw-11/Computer_Science_Study/blob/master/Database/Database_concept.md)
 - Network
 - Web
   - [SSL_HTTPS](https://github.com/kkw-11/Computer_Science_Study/blob/master/Web/SSL_HTTPS.md)
