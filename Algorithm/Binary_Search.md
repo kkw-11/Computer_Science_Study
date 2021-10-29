@@ -64,7 +64,13 @@ int main()
 ```
 
 ## 시간 복잡도
+<<<<<<< HEAD
 
 - 중간 값과 비교할 때마다 데이터 집합의 범위가 1/2 씩 줄어 들기 때문에 최악의 경우 데이터 집합이 1이 될때 까지 알고리즘이 수행되는 것이다.
 - 전체 데이터가 N개 있을 때 최악의 비교 수행 횟수를 계산하면 아래와 같다.
   <a href="https://www.codecogs.com/eqnedit.php?latex=log_{2}N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?log_{2}N" title="log_{2}N" /></a>이 된다.
+=======
+- 중간 값과 비교할 때마다 데이터 집합의 범위가 1/2 씩 줄어 들기 때문에 최악의 경우 데이터 집합이 1이 될때 까지 알고리즘이 수행될 수 있다.
+- 전체 데이터가 N개 있을 때 최악의 비교 수행 횟수를 계산하면 아래와 같다.
+<a href="https://www.codecogs.com/eqnedit.php?latex=log_{2}N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?log_{2}N" title="log_{2}N" /></a>이 된다.
+>>>>>>> ce9c77efc5537db3c3b96f843410eb14a19a3d09
