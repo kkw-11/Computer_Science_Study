@@ -31,6 +31,7 @@ ex) 20211016 [Algorithm] Sort Add/Update/Delete
   - Java
     - [Java_Array](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/Java_Array.md)
 - Operating System
+  - [Operating System definition](https://github.com/kkw-11/Computer_Science_Study/blob/master/Operating_System/Operating_System_Concept_Functions.md)
 - Computer Architecture
 - System Programming
   - [Instruction Set Achitecture](https://github.com/kkw-11/Computer_Science_Study/tree/master/System_Programming)
