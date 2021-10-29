@@ -7,7 +7,7 @@
 #### Commit convention rule : 날짜-[주제]-내용-상태
 
 ```
-ex) 20191014 [Algorithm] Sort Add/Update/Delete
+ex) 20211016 [Algorithm] Sort Add/Update/Delete
 ```
 
 ## Contents
