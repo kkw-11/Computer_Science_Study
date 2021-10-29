@@ -1,7 +1,9 @@
 # Binary Search
+
 - 정렬된 데이터 집합에서 사용할 수 있는 탐색 알고리즘
 
 ## Binary Search Algorithm process
+
 - 정렬된 데이터의 집합이 중앙에 있는 요소를 고릅니다.
 - 중앙 요쇼의 값과 찾고자 하는 목표 값(target)을 비교합니다.
 - 목표 값이 중앙 요소의 값보다 작다면 데이터 집합의 왼편에 대해 새로 검색을 수행하고 크다면 오른편에 대해 이진 탐색을 새롭게 수행합니다.
@@ -62,6 +64,7 @@ int main()
 ```
 
 ## 시간 복잡도
+
 - 중간 값과 비교할 때마다 데이터 집합의 범위가 1/2 씩 줄어 들기 때문에 최악의 경우 데이터 집합이 1이 될때 까지 알고리즘이 수행되는 것이다.
 - 전체 데이터가 N개 있을 때 최악의 비교 수행 횟수를 계산하면 아래와 같다.
-<a href="https://www.codecogs.com/eqnedit.php?latex=log_{2}N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?log_{2}N" title="log_{2}N" /></a>이 된다.
+  <a href="https://www.codecogs.com/eqnedit.php?latex=log_{2}N" target="_blank"><img src="https://latex.codecogs.com/gif.latex?log_{2}N" title="log_{2}N" /></a>이 된다.
