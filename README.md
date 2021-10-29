@@ -13,6 +13,7 @@ ex) 20211016 [Algorithm] Sort Add/Update/Delete
 ## Contents
 
 - Algorithm
+  - [Binary Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Binary_Search.md)
   - [Quick Sort](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Quick_Sort.md)
   - [Depth-First-Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Depth-First_Search.md)
   - [Breadth-First-Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Breadth-First-Search.md)
