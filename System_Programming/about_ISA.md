@@ -1,10 +1,18 @@
-# Instruction Set Architecture(ISA) 란?
+# Instruction Set
+- 특정 CPU를 위해 정의된 명령어 모음
+- 프로그래머가 고급언어로 작성한 프로그램이 실행되려면 컴파일러나 인터프리터 등을 통해 기계 명령어(machine instruction)으로 변환되어야만 실행될 수 있는데, 이러한 기계 명령어를 줄여서 기계어, 명령어라고 하고, 이러한 명령어는 CPU가 수행할 동작을 2진수 코드로 정의한 것이다.
 
+# Instruction Set Architecture(ISA) 란?
+- 좁은 의미의 컴퓨터 구조, 작성된 프로그램과 그 프로그램을 수행할 컴퓨터 하드웨어 사이의 인터페이스에 대한 정의, 명세(specification)
 - 비트로 이루어진 명령어 집합 구조  
 - 하드웨어와 소프트웨어 사이의 interface에 대한 완전한 명세
 - 타겟에 맞는 ISA에 따라서 HW/ SW를 만들게 됨
 
-
+# ISA가 명시하는 내용
+- CPU가 어떤 연산을 수행할 수 있고 각 연산에 대한 어떤 데이터가 필요한지를 명시
+- 사용할 수 있는 데이터의 표현 방식, 즉 데이터 형식(data type)을 명시
+- 데이터의 위치에 대한 정보를 알려주는 주소지정 방식(addressing mode)을 명시
+- ISA에 명시된 연산, 데이터 형식, 주소 지정 방식의 수는 컴퓨터 종류 마다 다름
 
 # system software
 
@@ -32,5 +40,5 @@
 
 # ISA에 포함되지 않는 것?
 - instructions의 수행 방법 ex. sequential, pipeline등 
-- cache memory  (성능향상 목적)
+- cache memory  (성능향상 목적, operand의 주소지정 방식에 포함되지 않음)
 - I/O device
