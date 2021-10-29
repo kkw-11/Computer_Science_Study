@@ -83,7 +83,7 @@ int main() {
 
 ## 연결리스트 표현
 
-![image](https://user-images.githubusercontent.com/76929823/139233777-c6c4ba2b-1078-4e01-94d0-d733b302eecb.png
+![image](https://user-images.githubusercontent.com/76929823/139233777-c6c4ba2b-1078-4e01-94d0-d733b302eecb.png)
 
 ## 실제 저장 형태
 
