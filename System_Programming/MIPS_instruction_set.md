@@ -8,20 +8,24 @@
 # MIPS에 포함되어 있는 것
 
 - Instruction
-  - _Arithmetic/Logic instructions_ : (핵심) 산술논리연산, 레지스터에만 접근합니다.
-  - Data Transfer (Load/Store) instructions : 유일하게 메모리에 접근하는 명령어로 속도가 느립니다. 메모리에있는 데이터를 register로 load하는 등의 data transfer instructions을 수행합니다.
-  - Conditional branch instructions : program counter를 바꿔주는 역할을 합니다.
-  - Unconditional jump instructions : program counter를 바꿔주는 역할을 합니다. (함수 호출하거나, 조건문 반복문 등 수행 방법이 순차적이 아닐 때)
+  - _Arithmetic/Logic instructions_ : 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근합니다.(핵심)
+  - Data Transfer (Load/Store) instructions : 유일하게 메모리에 접근하는 명령어입니다. 메모리에있는 데이터를 register로 load하는 등의 data transfer instructions을 수행하며, 속도가 느립니다.
+  - Conditional branch instructions : PC(program counter)를 바꿔주는 역할을 합니다.
+  - Unconditional jump instructions : 위와 같이 PC를 바꿔주는 역할을 합니다. (함수 호출하거나, 조건문 반복문 등 수행 방법이 순차적이 아닐 때)
 
 # MIPS register
 
-- 정수형, 실수형 중 정수형 32개의 register, 4bytes
-- 구분위해 2^5 -> 5bits가 사용됩니다.
+- 정수형, 실수형 중 정수형 32개의 register, 4bytes의 구분을 위해 2^5 -> 5bits가 사용됩니다.
 
 # MIPS Memory model
 
 - 2^32 로 위치 지정 가능인데, 각각 byte 단위로 주소 지정하니, 총 2^32 bytes 입니다.
-- word : 컴퓨터 내부의 데이터 처리 및 전송의 단위, mips에서는 4bytes = 1 word입니다.
+
+### 용어
+
+- bit : binary digit 입니다.
+- byte : 1개의 영문자를 기억하는 최소 단위로 8bits와 같습니다.
+- word : 컴퓨터 내부의 데이터 처리 및 전송의 단위이며, mips에서는 4bytes를 말합니다.
 
 ### RISC\* (Reduced Instruction Set Computer)
 
