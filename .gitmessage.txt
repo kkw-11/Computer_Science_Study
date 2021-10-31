@@ -1,9 +1,9 @@
 # Commit convention rule : 날짜-[주제]-내용-상태
-test
+2021
 # ex) 20211029 [Algorithm] Sort Add/Update/Delete
 ################
 # 꼬릿말(footer)을 아랫줄에 작성 (작성자)
-Steve
+
 ################
 # 폴더명
 # [Algorithm]

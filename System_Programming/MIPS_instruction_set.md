@@ -9,11 +9,11 @@
 
 - 레지스터에만 접근
 
-  - _Arithmetic/Logic instructions_ : 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근
+  - Arithmetic/Logic instructions
+    - 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근
   - Conditional branch instructions
   - Unconditional jump instructions
     - PC(program counter) 바꿔줌
-    - 함수 호출하거나, 조건문 반복문 등 수행 방법이 순차적이 아닐 때
 
 - 메모리에만 접근
   - Data Transfer (Load/Store) instructions : 메모리에있는 데이터를 register로 load하는 등의 data transfer instructions을 수행하며, 속도가 느리다.
@@ -22,18 +22,18 @@
 
 - 정수형, 실수형 중 정수형 32개의 register, 4bytes의 구분을 위해 2^5 -> 5bits가 사용
 
-# MIPS Memory model
+## MIPS Memory
 
 - 2^32 로 위치 지정 가능, 각각 byte 단위로 주소 지정, 총 2^32 bytes
 
 ### 용어
 
-- bit : binary digit
-- byte : 1개의 영문자를 기억하는 최소 단위로 8bits
-- word : 컴퓨터 내부의 데이터 처리 및 전송의 단위이며, mips에서는 1word는 4bytes
+- 단위
 
-### RISC\* (Reduced Instruction Set Computer)
+  - bit : binary digit
+  - byte : 1개의 영문자를 기억하는 최소 단위로 8bits
+  - word : 컴퓨터 내부의 데이터 처리 및 전송의 단위이며, mips에서는 1word는 4bytes
 
 - RISC는 적은 수의 컴퓨터 명령어를 수행하도록 설계된 마이크로프로세서
-- 프로그램에서 자주 사용되는 명령어만 효율적으로 구현하여 프로세서를 단순화해 H/W 구조가 단순
-- cf. CISC 는 복잡한 명령어를 수행하도록 설계된 마이크로세서: 많은 특수 명령어가 있어 일부는 거의 사용되지 않을 수 있고 H/W가 복잡하지만, 특정 명령에 최적화되어 설계되는 경우에는 RISC보다 속도가 더 빠르다
+  - 프로그램에서 자주 사용되는 명령어만 효율적으로 구현하여 프로세서를 단순화해 H/W 구조가 단순
+  - cf. CISC 는 복잡한 명령어를 수행하도록 설계된 마이크로세서: 많은 특수 명령어가 있어 일부는 거의 사용되지 않을 수 있고 H/W가 복잡하지만, 특정 명령에 최적화되어 설계되는 경우에는 RISC보다 속도가 더 빠르다
