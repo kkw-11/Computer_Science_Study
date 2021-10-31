@@ -1,9 +1,8 @@
 # TIL
 > Today I Learned
 
-"Computer_Science_Study"
-- 기본기가 탄탄한 개발자가g 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 
-학습 내용을 공부하고 정리하는 공간입니다.
+"#"Computer_Science_Study
+- 기본기가 탄탄한 개발자가 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
 
 
 _20 TILs and counting..._
