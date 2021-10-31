@@ -46,7 +46,7 @@ _21 TILs and counting..._
 - [Database_concept](Database/Database_concept.md)
 
 ### [Operating_System](#Operating_System)
-- [Operating System Concept Functions](Operating_System/Operating_System_Concept_Functions.md)
+- [운영체제란?](Operating_System/Operating_System_Concept_Functions.md)
 
 ### [Programming_Language](#Programming_Language)
 - [STL(Standard Template Library)](Programming_Language/C++_STL.md)
