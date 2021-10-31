@@ -34,8 +34,6 @@ _21 TILs and counting..._
 
 ### [Data_Structrue](#Data_Structrue)
 
-- # [# Graph 정의](Data_Structrue/Graph.md)
-  > > > > > > > c32b58f2dc56e22e570abf713f8168e19ac0b53a
 - [Graph](Data_Structrue/Graph.md)
 - [Queue](Data_Structrue/Queue.md)
 - [Stack](Data_Structrue/Stack.md)
