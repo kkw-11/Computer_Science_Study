@@ -6,14 +6,14 @@
 학습 내용을 공부하고 정리하는 공간입니다.
 
 
-_23 TILs and counting..._
+_20 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [system22.md](System_Programming/system2.md) - Sun Oct 31 11:03:46 2021 +0900
-- [system sw](System_Programming/system.md) - Sun Oct 31 11:00:19 2021 +0900
+- [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md) - Sun Oct 31 01:33:07 2021 +0900
+- [Database_concept](Database/Database_concept.md) - Sat Oct 30 00:07:50 2021 +0900
 
 ### Categories
 
@@ -55,12 +55,9 @@ _23 TILs and counting..._
 - [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md)
 - [Memory Structure](System_Programming/Memory_Structure.md)
 - [Instruction Set](System_Programming/about_ISA.md)
-- [system sw](System_Programming/system.md)
-- [system22.md](System_Programming/system2.md)
 
 ### [Web](#Web)
 - [SSL(Secure Socket Layer)](Web/SSL_HTTPS.md)
-- [web2](Web/test.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
