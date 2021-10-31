@@ -5,14 +5,14 @@
 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
 
 
-_20 TILs and counting..._
+_21 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [test](Web/test.md) - Sun Oct 31 10:11:07 2021 +0900
 - [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md) - Sun Oct 31 01:33:07 2021 +0900
-- [# Database](Database/Database_concept.md) - Sat Oct 30 00:07:50 2021 +0900
 
 ### Categories
 
@@ -57,6 +57,7 @@ _20 TILs and counting..._
 
 ### [Web](#Web)
 - [SSL(Secure Socket Layer)](Web/SSL_HTTPS.md)
+- [test](Web/test.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
