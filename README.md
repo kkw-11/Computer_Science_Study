@@ -6,18 +6,19 @@
 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
 
 
-_20 TILs and counting..._
+_21 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [Pipeline](Computer_Architecture/pipeline.md) - Sun Oct 31 11:42:42 2021 +0900
 - [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md) - Sun Oct 31 01:33:07 2021 +0900
-- [Database_concept](Database/Database_concept.md) - Sat Oct 30 00:07:50 2021 +0900
 
 ### Categories
 
 - [Algorithm](#Algorithm)
+- [Computer_Architecture](#Computer_Architecture)
 - [Data_Structrue](#Data_Structrue)
 - [Database](#Database)
 - [Operating_System](#Operating_System)
@@ -31,6 +32,9 @@ _20 TILs and counting..._
 - [Depth-First-Search](Algorithm/Depth-First_Search.md)
 - [Djkstra 최단경로 알고리즘](Algorithm/Dijkstra.md)
 - [Quick Sort](Algorithm/Quick_Sort.md)
+
+### [Computer_Architecture](#Computer_Architecture)
+- [Pipeline](Computer_Architecture/pipeline.md)
 
 ### [Data_Structrue](#Data_Structrue)
 - [Graph](Data_Structrue/Graph.md)
