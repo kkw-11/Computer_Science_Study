@@ -30,22 +30,15 @@ _20 TILs and counting..._
 
 ### [Data_Structrue](#Data_Structrue)
 
-<<<<<<< HEAD
-
 - # [# Graph 정의](Data_Structrue/Graph.md)
 - [Graph](Data_Structrue/Graph.md)
-  > > > > > > > c6291a2ef0cccb6d04d185456fd6f661963042f0
 - [Queue](Data_Structrue/Queue.md)
 - [Stack](Data_Structrue/Stack.md)
 - [자료구조란 무엇인가?](Data_Structrue/What_Is_Data_Structure.md)
 
 ### [Database](#Database)
 
-<<<<<<< HEAD
-
-- # [# Database](Database/Database_concept.md)
 - [Database_concept](Database/Database_concept.md)
-  > > > > > > > c6291a2ef0cccb6d04d185456fd6f661963042f0
 
 ### [Operating_System](#Operating_System)
 
@@ -53,11 +46,7 @@ _20 TILs and counting..._
 
 ### [Programming_Language](#Programming_Language)
 
-<<<<<<< HEAD
-
-- # [# STL(Standard Template Library)](Programming_Language/C++_STL.md)
 - [STL(Standard Template Library)](Programming_Language/C++_STL.md)
-  > > > > > > > c6291a2ef0cccb6d04d185456fd6f661963042f0
 - [C++의 동적 메모리 할당과 해제](Programming_Language/C++_dynamic_memory_allocation.md)
 - [Array](Programming_Language/C_Array.md)
 - [Struct](Programming_Language/C_Struct.md)
