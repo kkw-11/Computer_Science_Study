@@ -1,4 +1,4 @@
-# 메모리의 구조
+# Memory Structure
 
 프로그램이 실행되기 위해서는 먼저 프로그램이 메모리에 로드(load)되어야 합니다.
 
@@ -21,7 +21,6 @@
 다음 그림은 운영체제가 제공하는 메모리 공간을 표현하고 있습니다.
 
 ![image](https://user-images.githubusercontent.com/76929823/139230714-3f12eeae-9ff3-4e5e-bf21-c079bcee0411.png)
-
 
 ---
 
