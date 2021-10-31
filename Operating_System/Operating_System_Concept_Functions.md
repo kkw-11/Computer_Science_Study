@@ -50,7 +50,8 @@
 
 ## Single User system과 Multi User system의 차이점
 
-- Multi User system은 Proection mechanism이 필수 다른 사용자의 파일에 접근하는 것을 막아야함
+- Multi User system은 Proection mechanism이 필수
+- 소유자와 접근권한이 따로 있는 것, 다른 사용자의 파일에 접근하는 것을 막아야함
 - 예) MS Windows(single user system)/ UNIX, LINUX (multi user system)
 
 ## Single Tasking 과 Multi Tasking system의 차이점
