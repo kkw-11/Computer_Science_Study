@@ -1,4 +1,4 @@
-## Quick Sort
+# Quick Sort
 
 - 퀵 정렬은 병합 정렬과 마찬가지로 '분할 정복(divide and conquer')에 근거하여 만들어진 정렬 방법이다.
   - 정렬의 대상이 되는 배열에서 하나의 원소를 고른다. 이 원소를 pivot이라고 한다.
