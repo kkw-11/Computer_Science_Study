@@ -2,27 +2,27 @@ name: Build README
 on:
   push:
     branches:
-    - master
+      - master
     paths-ignore:
-    - README.md
+      - README.md
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repo
-      uses: actions/checkout@v2
-      with:
-        # necessary for github-action-til-autoformat-readme
-        fetch-depth: 0
-    - name: Autoformat README
-      uses: cflynn07/github-action-til-autoformat-readme@1.2.0
-      with:
-        description: |
-          \# Computer_Science_Study
-          기본기가 탄탄한 개발자가 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 
-          학습 내용을 공부하고 정리하는 공간입니다.
-        footer: |
-          [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
-          [2]: https://github.com/jbranchaud/til
-        list_most_recent: 2 # optional, lists most recent TILS below description
-        date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          # necessary for github-action-til-autoformat-readme
+          fetch-depth: 0
+      - name: Autoformat README
+        uses: cflynn07/github-action-til-autoformat-readme@1.2.0
+        with:
+          description: |
+            "Computer_Science_Study"
+            기본기가 탄탄한 개발자가 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 
+            학습 내용을 공부하고 정리하는 공간입니다.
+          footer: |
+            [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
+            [2]: https://github.com/jbranchaud/til
+          list_most_recent: 2 # optional, lists most recent TILS below description
+          date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
