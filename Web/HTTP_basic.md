@@ -30,13 +30,13 @@
 
 - HTTP v2 (2015)
 
-  - 전세계 50%, 거의 HTTPS
+  - 전세계 50%, 대부분 HTTPS
   - v1에 비해 efficient와 secure 개선
   - binary based protocol
   - header compression
   - multiplexing : 여러개파일 동시에 주고받음.
   - stream prioritization
-  - **현재는 v2 기준으로 정리**
+    **현재는 v2 기준으로 정리**
 
 - HTTP v3 (2019~)
   - HTTPS만 지원
