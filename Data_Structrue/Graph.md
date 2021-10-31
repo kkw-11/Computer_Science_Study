@@ -84,6 +84,7 @@ int main() {
     map[1].push_back(3);//map[1][1]에 3이라는 데이터가 저장
     map[1].push_back(4);//map[1][2]에 4라는 데이터가 저장
 
+
     //vector map[2]은 노드2에 연결된 노드 정보를 인접리스트형태로 저장
     map[2].push_back(1);
     map[2].push_back(4);
