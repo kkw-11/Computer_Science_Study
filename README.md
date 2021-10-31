@@ -48,7 +48,7 @@ _21 TILs and counting..._
 - [C++의 동적 메모리 할당과 해제](Programming_Language/C++_dynamic_memory_allocation.md)
 - [Array](Programming_Language/C_Array.md)
 - [# Struct](Programming_Language/C_Struct.md)
-- [# Array](Programming_Language/Java_Array.md)
+- [Array](Programming_Language/Java_Array.md)
 
 ### [System_Programming](#System_Programming)
 - [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md)
