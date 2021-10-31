@@ -1,4 +1,5 @@
-# Computer_Science_Study
+# TIL
+> Today I Learned
 
 기본기가 탄탄한 개발자가 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 
 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
@@ -28,16 +29,16 @@ _21 TILs and counting..._
 - [Breadth-First-Search](Algorithm/Breadth-First-Search.md)
 - [Depth-First-Search](Algorithm/Depth-First_Search.md)
 - [Djkstra 최단경로 알고리즘](Algorithm/Dijkstra.md)
-- [# Quick Sort](Algorithm/Quick_Sort.md)
+- [Quick Sort](Algorithm/Quick_Sort.md)
 
 ### [Data_Structrue](#Data_Structrue)
-- [# Graph 정의](Data_Structrue/Graph.md)
+- [Graph](Data_Structrue/Graph.md)
 - [Queue](Data_Structrue/Queue.md)
 - [Stack](Data_Structrue/Stack.md)
 - [자료구조란 무엇인가?](Data_Structrue/What_Is_Data_Structure.md)
 
 ### [Database](#Database)
-- [# Database](Database/Database_concept.md)
+- [Database_concept](Database/Database_concept.md)
 
 ### [Operating_System](#Operating_System)
 - [운영체제란?](Operating_System/Operating_System_Concept_Functions.md)
@@ -45,7 +46,7 @@ _21 TILs and counting..._
 ### [Programming_Language](#Programming_Language)
 - [# STL(Standard Template Library)](Programming_Language/C++_STL.md)
 - [C++의 동적 메모리 할당과 해제](Programming_Language/C++_dynamic_memory_allocation.md)
-- [# Array](Programming_Language/C_Array.md)
+- [Array](Programming_Language/C_Array.md)
 - [# Struct](Programming_Language/C_Struct.md)
 - [# Array](Programming_Language/Java_Array.md)
 
