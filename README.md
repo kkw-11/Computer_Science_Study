@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_22 TILs and counting..._
+_23 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [system22.md](System_Programming/system2.md) - Sun Oct 31 11:03:46 2021 +0900
 - [system sw](System_Programming/system.md) - Sun Oct 31 11:00:19 2021 +0900
-- [web2](Web/test.md) - Sun Oct 31 10:11:07 2021 +0900
 
 ### Categories
 
@@ -57,6 +57,7 @@ _22 TILs and counting..._
 - [메모리의 구조](System_Programming/Memory_Structure.md)
 - [Instruction Set](System_Programming/about_ISA.md)
 - [system sw](System_Programming/system.md)
+- [system22.md](System_Programming/system2.md)
 
 ### [Web](#Web)
 - [SSL(Secure Socket Layer)](Web/SSL_HTTPS.md)
