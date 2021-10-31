@@ -1,4 +1,4 @@
-## Database
+# Database
 
 DB는 DataBase의 약자로 파일시스템의 단점을 극복하기 위해 탄생했고, 데이터를 중복 없이 관리하고 응용프로그램의 종속되지 않고 한 조직에서 공용으로 사용하도록 통합한 데이터의 묶음입니다.   
 DBMS는 DataBase Management System의 약자로 데이터베이스를 관리하는 시스템 SW입니다.
