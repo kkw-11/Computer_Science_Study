@@ -43,7 +43,7 @@ _23 TILs and counting..._
 - [Database_concept](Database/Database_concept.md)
 
 ### [Operating_System](#Operating_System)
-- [운영체제란?](Operating_System/Operating_System_Concept_Functions.md)
+- [Operating System Concept Functions](Operating_System/Operating_System_Concept_Functions.md)
 
 ### [Programming_Language](#Programming_Language)
 - [STL(Standard Template Library)](Programming_Language/C++_STL.md)
@@ -54,7 +54,7 @@ _23 TILs and counting..._
 
 ### [System_Programming](#System_Programming)
 - [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md)
-- [메모리의 구조](System_Programming/Memory_Structure.md)
+- [Memory Structure](System_Programming/Memory_Structure.md)
 - [Instruction Set](System_Programming/about_ISA.md)
 - [system sw](System_Programming/system.md)
 - [system22.md](System_Programming/system2.md)
