@@ -1,52 +1,63 @@
-# Computer_Science_Study
+# TIL
+> Today I Learned
 
-## About
+기본기가 탄탄한 개발자가 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 
+알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
 
-- 기본기가 탄탄한 개발자가 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
 
-#### Commit convention rule : 날짜-[주제]-내용-상태
+_20 TILs and counting..._
 
-```
-ex) 20211016 [Algorithm] Sort Add/Update/Delete
-```
+---
 
-## Contents
+### 2 most recent TILs
 
-- Algorithm
-  - [Binary Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Binary_Search.md)
-  - [Quick Sort](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Quick_Sort.md)
-  - [Depth-First-Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Depth-First_Search.md)
-  - [Breadth-First-Search](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Breadth-First-Search.md)
-  - [Dijkstra](https://github.com/kkw-11/Computer_Science_Study/blob/master/Algorithm/Djkstra.md)
-- Data Structure
-  - [자료구조란 무엇인가?](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/What_Is_Data_Structure.md)
-  - [Stack](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/Stack.md)
-  - [Queue](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/Queue.md)
-  - [Graph](https://github.com/kkw-11/Computer_Science_Study/blob/master/Data_Structrue/Graph.md)
-- Programming Language
-  - C
-    - [Array](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C_Array.md)
-    - [Struct](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C_Struct.md)
-  - C++
-    - [C++ Danamic Memory Allocation](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_dynamic_memory_allocation.md)
-    - [C++ STL](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/C%2B%2B_STL.md)
-  - Java
-    - [Java_Array](https://github.com/kkw-11/Computer_Science_Study/blob/master/Programming_Language/Java_Array.md)
-- Operating System
-  - [Operating System definition](https://github.com/kkw-11/Computer_Science_Study/blob/master/Operating_System/Operating_System_Concept_Functions.md)
-- Computer Architecture
-- System Programming
-  - [Instruction Set Achitecture](https://github.com/kkw-11/Computer_Science_Study/tree/master/System_Programming)
-  - [Memory Structure](https://github.com/kkw-11/Computer_Science_Study/blob/master/System_Programming/Memory_Structure.md)
-- Linux
-- Database
-  -  [Database Concept](https://github.com/kkw-11/Computer_Science_Study/blob/master/Database/Database_concept.md)
-- Network
-- Web
-  - [SSL_HTTPS](https://github.com/kkw-11/Computer_Science_Study/blob/master/Web/SSL_HTTPS.md)
+- [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md) - Sun Oct 31 01:33:07 2021 +0900
+- [# Database](Database/Database_concept.md) - Sat Oct 30 00:07:50 2021 +0900
 
-#### Reference
+### Categories
 
-- [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
-- [Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
-- [컴퓨터과학 스스로 학습하기](https://github.com/minnsane/TeachYourselfCS-KR)
+- [Algorithm](#Algorithm)
+- [Data_Structrue](#Data_Structrue)
+- [Database](#Database)
+- [Operating_System](#Operating_System)
+- [Programming_Language](#Programming_Language)
+- [System_Programming](#System_Programming)
+- [Web](#Web)
+
+### [Algorithm](#Algorithm)
+- [Binary Search](Algorithm/Binary_Search.md)
+- [Breadth-First-Search](Algorithm/Breadth-First-Search.md)
+- [Depth-First-Search](Algorithm/Depth-First_Search.md)
+- [Djkstra 최단경로 알고리즘](Algorithm/Dijkstra.md)
+- [# Quick Sort](Algorithm/Quick_Sort.md)
+
+### [Data_Structrue](#Data_Structrue)
+- [# Graph 정의](Data_Structrue/Graph.md)
+- [Queue](Data_Structrue/Queue.md)
+- [Stack](Data_Structrue/Stack.md)
+- [자료구조란 무엇인가?](Data_Structrue/What_Is_Data_Structure.md)
+
+### [Database](#Database)
+- [# Database](Database/Database_concept.md)
+
+### [Operating_System](#Operating_System)
+- [운영체제란?](Operating_System/Operating_System_Concept_Functions.md)
+
+### [Programming_Language](#Programming_Language)
+- [# STL(Standard Template Library)](Programming_Language/C++_STL.md)
+- [C++의 동적 메모리 할당과 해제](Programming_Language/C++_dynamic_memory_allocation.md)
+- [# Array](Programming_Language/C_Array.md)
+- [# Struct](Programming_Language/C_Struct.md)
+- [# Array](Programming_Language/Java_Array.md)
+
+### [System_Programming](#System_Programming)
+- [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md)
+- [메모리의 구조](System_Programming/Memory_Structure.md)
+- [Instruction Set](System_Programming/about_ISA.md)
+
+### [Web](#Web)
+- [SSL(Secure Socket Layer)](Web/SSL_HTTPS.md)
+
+[1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
+[2]: https://github.com/jbranchaud/til
+
