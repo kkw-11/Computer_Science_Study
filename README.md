@@ -6,7 +6,7 @@
 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
 
 
-_21 TILs and counting..._
+_22 TILs and counting..._
 
 ---
 
@@ -61,6 +61,7 @@ _21 TILs and counting..._
 - [Instruction Set](System_Programming/about_ISA.md)
 
 ### [Web](#Web)
+- [HTTP역사와 HTTPs](Web/HTTP_basic.md)
 - [SSL(Secure Socket Layer)](Web/SSL_HTTPS.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
