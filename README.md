@@ -61,7 +61,7 @@ _22 TILs and counting..._
 - [Instruction Set](System_Programming/about_ISA.md)
 
 ### [Web](#Web)
-- [HTTP역사와 HTTPs](Web/HTTP_basic.md)
+- [HTTP](Web/HTTP_basic.md)
 - [SSL(Secure Socket Layer)](Web/SSL_HTTPS.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
