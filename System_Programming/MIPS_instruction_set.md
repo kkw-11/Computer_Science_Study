@@ -10,7 +10,7 @@
 - 레지스터에만 접근
 
   - Arithmetic/Logic instructions
-    - 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근
+    - 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근(피연산자로 register만 오도록 설계되어 있음)
     - MIPS Instruction은 Operand로 레지스터만 올 수 있는데, 만약 메모리에 저장된 데이터와 연산을 해야 한다면 Data Transfer Instruction을 먼저 수행해서 register에 데이터를 읽어와서 산술, 논리 연산을 
   - Conditional branch instructions
     -  PC(program counter, PC는 다음 번 수행할 기계어의 메모리 위치를 저장하는 Register) 바꿔줌
