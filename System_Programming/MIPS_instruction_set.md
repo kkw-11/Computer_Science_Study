@@ -12,8 +12,11 @@
   - Arithmetic/Logic instructions
     - 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근
   - Conditional branch instructions
+    -  PC(program counter, PC는 다음 번 수행할 기계어의 메모리 위치를 저장하는 Register) 바꿔줌
+   
   - Unconditional jump instructions
     - PC(program counter) 바꿔줌
+    
 
 - 메모리에만 접근
   - Data Transfer (Load/Store) instructions : 메모리에있는 데이터를 register로 load하는 등의 data transfer instructions을 수행하며, 속도가 느리다.
@@ -24,7 +27,7 @@
 
 ## MIPS Memory
 
-- 2^32 로 위치 지정 가능, 각각 byte 단위로 주소 지정, 총 2^32 bytes
+- 2^32 로 위치 지정 가능, 각각 byte 단위로 주소 지정, 총 2^32 bytes (용량 4GB)
 
 ### 용어
 
