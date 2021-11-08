@@ -10,10 +10,14 @@
 - 레지스터에만 접근
 
   - Arithmetic/Logic instructions
-    - 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근
+    - 산술논리연산을 수행하는 명령어이며, 레지스터에만 접근(피연산자로 register만 오도록 설계되어 있음)
+    - MIPS Instruction은 Operand로 레지스터만 올 수 있는데, 만약 메모리에 저장된 데이터와 연산을 해야 한다면 Data Transfer Instruction을 먼저 수행해서 register에 데이터를 읽어와서 산술, 논리 연산을 
   - Conditional branch instructions
+    -  PC(program counter, PC는 다음 번 수행할 기계어의 메모리 위치를 저장하는 Register) 바꿔줌
+   
   - Unconditional jump instructions
     - PC(program counter) 바꿔줌
+    
 
 - 메모리에만 접근
   - Data Transfer (Load/Store) instructions : 메모리에있는 데이터를 register로 load하는 등의 data transfer instructions을 수행하며, 속도가 느리다.
@@ -24,7 +28,7 @@
 
 ## MIPS Memory
 
-- 2^32 로 위치 지정 가능, 각각 byte 단위로 주소 지정, 총 2^32 bytes
+- 2^32 로 위치 지정 가능, 각각 byte 단위로 주소 지정, 총 2^32 bytes (용량 4GB)
 
 ### 용어
 
@@ -42,4 +46,4 @@
 ## Immediate addressing
 - instruction 자체에 직접 포함되는 상수 필드
 - 추가적 메모리 접근이 없어 빠른 연산 가능
-- 단점: 재사용 불사(이유:기계어 자체에 피연산자가 들어 있기 때문에 다음 instruction에서 재사용불가), 32bit 내에 포함되므로 
+- 단점: 재사용 불가(이유:기계어 자체에 피연산자가 들어 있기 때문에 다음 instruction에서 재사용불가), 32bit 내에 포함되므로 
