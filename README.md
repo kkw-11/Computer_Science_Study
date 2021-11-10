@@ -6,14 +6,14 @@
 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 공부하고 정리하는 공간입니다.
 
 
-_23 TILs and counting..._
+_24 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [MIPS Instruction](System_Programming/MIPS_instructions.md) - Wed Nov 10 19:29:25 2021 +0900
 - [Procedure Call in Program Excecution](System_Programming/Procedure_Call_In_Program_Excecution.md) - Wed Nov 10 16:58:05 2021 +0900
-- [Pipeline](Computer_Architecture/pipeline.md) - Sun Oct 31 11:42:42 2021 +0900
 
 ### Categories
 
@@ -57,6 +57,7 @@ _23 TILs and counting..._
 
 ### [System_Programming](#System_Programming)
 - [MIPS Instruction Set Architecture](System_Programming/MIPS_instruction_set.md)
+- [MIPS Instruction](System_Programming/MIPS_instructions.md)
 - [Memory Structure](System_Programming/Memory_Structure.md)
 - [Procedure Call in Program Excecution](System_Programming/Procedure_Call_In_Program_Excecution.md)
 - [Instruction Set](System_Programming/about_ISA.md)
