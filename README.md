@@ -2,10 +2,11 @@
 > Today I Learned
 
 💻 Computer_Science_Study |
+💡 Introduction |
 - 기본기가 탄탄한 개발자가 되기 위해 Computer Science 기초 과목(프로그래밍 언어, 자료구조, 
 알고리즘, 운영체제, 데이터베이스, 네트워크) 및 개발관련 학습 내용을 정리하는 공간입니다.
 
-💻 project background |
+💡 Project background |
 - AI, Blockchain 등 최신기술은 끊임 없이 나오지만 이들의 생명주기는 짧습니다. 하지만 이안에서도 변하지 않는 기초 지식이 있습니다. 
 이렇게 하루가 다르게 쏟아지는 신기술에 압도당하지 않으며 플랫폼적인 고민을 하는 기본기가 탄탄한 개발자가 되기 위해 Computer Science 기본 지식을 정리하게 되었습니다.
 
