@@ -22,3 +22,32 @@
         - lw $t0, 0(4sp)
         - add $sp, $sp, 4
             - 정보 다른 register로 옮기고 메모리주소 4칸 높은쪽으로 이동
+
+
+## caller, callee와 jump & link
+- 함수내에서 새로운 함수를 호출하면 return address를 저장하는 레지스터($ra)에 현재 $pc에 있는 값을 저장해두고 호출된 함수 위치로 jump & link
+- 만약에 호출된 함수에서 다시 새로운 함수를 호출한다면 이때 $ra에 새로 돌아올 위치를 저장한다면 기존에 값이 사라지기 때문에 기존에 값은 현재 stack frame에 저장해둔다.
+
+- register 저장에 대한 책임
+    - callee
+        - Saved s0 ~ s7 : 함수 호출이 되더라도 기본적으로 항상 저장되어야 하는 레지스터 이므로 호출하는쪽은 신경을 안쓰고 호출 당한함수 측에서 이 레지스터를 써야한다면 사용하되 자신이 저장해두고 return 할때 원상복구 해두어야함
+        - $fp : 자기 자신의 fp로 설정하면서 원래 fp를 stack에 저장해둠
+    - caller
+        - Temporary t8, t9 : 임시 레지스터이기 때문에 지워질 가능성이 많으므로 호출하는 쪽이 저장해두어야함
+        - argument $a0~$a3
+        - Return value $v0~$v1
+        - Return address $ra
+        
+
+
+## Stack Frame
+- procedure가 사용 중인 데이터를 stack 상의 자신의 frame에 저장
+- frame pointer($fp)를 각 함수의 stack frame의 시작 위치로 하여 procedure가 그 데이터를 접근
+- stack fram에 저장되는 내용
+    - 함수에 전달되는 인자 5번째 부터(4개까지는 $a0~a3에 저장)
+    - svae된 register들의 값
+    - 각 procedure의 local variables
+
+
+## 함수 호출 과정 정리
+![image](https://user-images.githubusercontent.com/76929823/141151314-2b47ad71-ce98-4bf9-9122-01706e674fd2.png)
