@@ -67,7 +67,11 @@
 ## CPU mode 2가지
 
 - User mode, Kernel mode
+- trap, interrupt가 발생시 user모드에서 kenel 모드로 변경
 
 ## Privileged instructions
 
 - CPU가 반드시 커널모드에서만 실행가능한 기계어 명령어
+- I/O control, Timer management, Interrupt management, Switching to user mode
+
+## System Call
