@@ -98,3 +98,20 @@ int main() {
 - pivot과 left, right에서 찾은 원소들을 비교하는 횟수는 자료의 개수(N)에 비례한다.
 - 그리고 위에서 한 행위가 배열의 범위가 분할 되면서 재귀 호출이 되는데 이것은 logN에 비례한다.
 - 그래서 시간복잡도를 계산하면 O(NlogN)이 나온다.
+
+
+```python
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    lesser_arr, equal_arr, greater_arr = [], [], []
+    for num in arr:
+        if num < pivot:
+            lesser_arr.append(num)
+        elif num > pivot:
+            greater_arr.append(num)
+        else:
+            equal_arr.append(num)
+    return quick_sort(lesser_arr) + equal_arr + quick_sort(greater_arr)
+```
