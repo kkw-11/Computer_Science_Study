@@ -38,6 +38,12 @@ C와 C++에 비해 쉬운 언어이다.
 
     ```
 
+ ![image](https://user-images.githubusercontent.com/76929823/153330545-491c134d-42db-4af4-baed-32eab5f703b2.png)
+
+![image](https://user-images.githubusercontent.com/76929823/153330611-7260bb15-2b82-4f9b-ab2e-1af0ec193670.png)
+
+![image](https://user-images.githubusercontent.com/76929823/153330640-a13925ce-fbdf-4b32-98a4-cbd0b11b59d4.png)
+
     
 
 
