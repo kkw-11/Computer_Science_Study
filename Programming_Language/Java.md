@@ -12,4 +12,33 @@ C와 C++에 비해 쉬운 언어이다.
 객체지향 언어이다.
 메모리 관리를 자동으로 해준다.
 
-출처: 프로그래머스
+# Java로 프로그램 개발 하기
+1. 소스 작성
+    * 메모장 등의 text editor를 통해 자바 소스를 작성한다. 나중에 이클립스나 인텔리제이 같은 IDE는 통합 개발환경으로 text editor가 내장되어 있다.
+2. 작성한 소스 컴파일
+    * 자바 소스 코드 컴파일 명령어 -  javac [파일명]
+    * 위 명령어를 실행하면 자바컴파일러(javac.exe)를 사용해서 소스파일(HelloWorld.java)로 부터 클래스 파일(HelloWorld.class)을 생성한다. \
+    * IDE를 사용하면 저장시에 자동으로 컴파일이 된다.
+3. 실행
+    java [클래스파일명]
+
+
+
+
+
+# 실습 
+    * .java라는 확장자로 파일을 하나 생성한 후 자바 소스를 작성한다. 아래는 화면에 HelloWorld를 출력하는 자바 소스코드이다.
+    
+    ```
+    public class HelloWorld{
+        public static void main(String args[]){
+            System.out.println("Hello World");
+        }
+    }
+
+    ```
+
+    
+
+
+출처: 프로그래머스 Java 강의, Java의 정석
