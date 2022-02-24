@@ -51,13 +51,13 @@
 ## Single User system과 Multi User system의 차이점
 
 - Multi User system은 Proection mechanism이 필수
-- 소유자와 접근권한이 따로 있는 것, 다른 사용자의 파일에 접근하는 것을 막아야함
+- 소유자와 접근권한이 따로 있는 것, 다른 사용자의 파일에 접근하는 것을 막아야 함
 - 예) MS Windows(single user system)/ UNIX, LINUX (multi user system)
 
 ## Single Tasking 과 Multi Tasking system의 차이점
 
 - Concurrency Control, Synchronization mechanisms은 Multi Tasking의 필수 조건임
-  - Concurrency - 운영체제의 스케줄링 알고리즘에 따라 여러작업을 빠르게 전환하면서(Context Switch)하면서 한개의 코어에서도 어려작업을 실제로 동시에 실행하는 것처럼 보이는것 (물리적으로 동시가 아님)
+  - Concurrency - 운영체제의 스케줄링 알고리즘에 따라 여러작업을 빠르게 전환하면서(Context Switch)하면서 한 개의 코어에서도 어려 작업을 실제로 동시에 실행하는 것처럼 보이는 것 (물리적으로 동시가 아님)
   - 예) MS DOS(single tasking), MS Windows(multi tasking)
 
 ## 리눅스의 새로운 프로세스를 생성하는 함수
