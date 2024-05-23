@@ -14,3 +14,8 @@
 
 # classpath
 - OS에서 환경변수를 설정하듯이 java가 돌아가는 jvm에서 환경변수를 설정하는 것
+
+# git editor 설정
+```
+git config --global core.editor emacs
+```
