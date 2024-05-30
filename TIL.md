@@ -36,3 +36,8 @@ git config --global core.editor emacs
 - 보안 환경에서 권한 부여는 항상 인증 이후에 진행되어야 한다. 사용자가 먼저 자신의 자격을 입증하면 기업의 관리자는 해당 사용자에게 요청한 리소스에 액세스한 수 있는 권한을 부여한다.
 - ex)보안팀에서 사용하는 설정 사용
 - 참고자료(https://www.okta.com/kr/identity-101/authentication-vs-authorization/)
+
+
+## JWT(JSON Web Token)
+- JSON 포맷을 이용하여 사용자에 대한 속성을 저장하는 클레임 기반의 Web Token
+- Java는 jjwt 라이브러리 사용하여 구현 가능
