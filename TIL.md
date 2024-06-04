@@ -44,4 +44,4 @@ git config --global core.editor emacs
 - Java는 jjwt 라이브러리 사용하여 구현 가능
 
 ## 컬렉션(Collection)
-- 많은 데이터 요소를 효울적으로 관리하기 위한 자료구조
+- 많은 데이터 요소를 효율적으로 관리하기 위한 자료구조
