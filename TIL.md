@@ -42,3 +42,6 @@ git config --global core.editor emacs
 ## JWT(JSON Web Token)
 - JSON 포맷을 이용하여 사용자에 대한 속성을 저장하는 클레임 기반의 Web Token
 - Java는 jjwt 라이브러리 사용하여 구현 가능
+
+## 컬렉션(Collection)
+- 많은 데이터 요소를 효울적으로 관리하기 위한 자료구조
