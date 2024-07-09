@@ -57,3 +57,8 @@ git config --global core.editor emacs
 
 ## 리팩토링이란
 - 겉으로 드러나는 코드의 기능은 바꾸지 않으면서 내부 구조를 개선하는 방식으로 소프트웨어 시스템을 수정하는 과정이다.
+- 컴퓨터가 이해할 수 있는 코드는 누구나 짤 수 있습니다. 사람이 이해할 수 있는 코드를 짜는 게 훌륭한 프로그래머입니다.
+
+## SOLID
+- SRP(Single Responsibility Principle)
+    - 단일책임의 원칙
