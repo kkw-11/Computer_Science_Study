@@ -62,3 +62,7 @@ git config --global core.editor emacs
 ## SOLID
 - SRP(Single Responsibility Principle)
     - 단일책임의 원칙
+
+
+## @RequiredArgsConstructor
+- @RequiredArgsConstructor는 final이나 @NonNull인 필드를 매개변수로 받는 생성자를 생성합니다.
