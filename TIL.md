@@ -8,9 +8,12 @@
 # JSON
 - JavaScript Object Notation(JSON)은 Javascript 객체 문법으로 구조화된 데이터를 표현하기 위한 문자 기반의 표준 포맷
 
-# 직렬화
+# 직렬화(Serialize)
 - 메모리에 저장된 데이터를 전송하기 위해 연속적인 데이터로 만드는 것.
+- 객체로 부터 Json 형태의 문자열을 만들어 내는 것.
 
+# 역직렬화(Deserialize)
+- Json 문자열로부터 객체를 만들어 내는 것.
 
 # classpath
 - OS에서 환경변수를 설정하듯이 java가 돌아가는 jvm에서 환경변수를 설정하는 것
