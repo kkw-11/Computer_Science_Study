@@ -7,6 +7,7 @@
 
 # JSON
 - JavaScript Object Notation(JSON)은 Javascript 객체 문법으로 구조화된 데이터를 표현하기 위한 문자 기반의 표준 포맷
+- Javascript에서 파생되었지만 언어 독립적인 데이터 형식.
 
 # 직렬화(Serialize)
 - 메모리에 저장된 데이터를 전송하기 위해 연속적인 데이터로 만드는 것.
