@@ -26,7 +26,7 @@ git config --global core.editor emacs
 ```
 
 # SSO(Single Sign On)
-- 한 번의 로그인(인증)으로 여러개의 애플리케이션들을 이용할 수 있게해주는 인증 솔루션
+- 한 번의 로그인(인증)으로 여러개의 애플리케이션들을 이용할 수 있게 해주는 인증 솔루션
     - Delegation Model, Propagation Model이 있다.
 
 # 인증, 인가
@@ -71,3 +71,9 @@ git config --global core.editor emacs
 
 ## @RequiredArgsConstructor
 - @RequiredArgsConstructor는 final이나 @NonNull인 필드를 매개변수로 받는 생성자를 생성합니다.
+
+
+## Hash
+- 해시 함수 또는 해시 알고리즘 또는 해시함수알고리즘은 임의의 길이의 데이터를 ㅗㄱ정된 길이의 데이터로 매핑하는 함수이다.
+
+
