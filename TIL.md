@@ -79,3 +79,9 @@ git config --global core.editor emacs
 
 ## Java 인터페이스
 - 객체의 사용방법을 정의한 타입
+
+
+## HTML 시맨틱태그
+- 태그에 포함된 컨텐츠의 의미를 정의 하고, 목적을 갖는 태그.
+- HTML의 기존 div태그와 마찬가지로 block element이면서, 사이트의 구조(레이아웃)를 설계하기 위해 존재.
+- 내용을 논리적 섹션으로 구성하고, 각 부분의 역할과 기능을 전달하는데 도움을 줌. ex)<header>, <nav>, <article>, <section>, <footer>, <main> 
