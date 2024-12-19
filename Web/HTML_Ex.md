@@ -1,5 +1,5 @@
 # HTML table tag
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
